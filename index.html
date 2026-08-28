@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="theme-color" content="#090811" />
+  <title>VEILBOUND — Les Visages du Monde Brisé</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main id="app" aria-label="VEILBOUND">
+    <canvas id="game" width="1280" height="720" tabindex="0" aria-label="Zone de jeu"></canvas>
+    <div id="loading" class="loading">Assemblage des masques…</div>
+    <div id="touch-controls" aria-hidden="true">
+      <div id="touch-stick"><span></span></div>
+      <button data-touch="attack">ATQ</button>
+      <button data-touch="power">DON</button>
+      <button data-touch="dash">ESQ</button>
+      <button data-touch="interact">PARLER</button>
+    </div>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+VÉRIFICATION DE LA VERSION LIVRÉE
+=================================
+
+- Analyse syntaxique JavaScript : réussie.
+- Démarrage du menu principal dans Chromium : réussi.
+- Introduction puis arrivée dans l’Atelier : réussies.
+- Déverrouillage du Garde-Cloche : réussi.
+- Passage de la porte identitaire avec le Garde : réussi.
+- Attaque et dégâts sur les ennemis : réussis.
+- Victoire du premier boss et acquisition de la Corneille : réussies.
+- Accessibilité vérifiée par parcours automatisé :
+  Cité, Forêt, Marais, Forge, Archives et Palais.
+- Tous les sanctuaires, obstacles obligatoires et boss sont atteignables.
+- Chargement et rendu des sept cartes : réussis sans erreur JavaScript.
